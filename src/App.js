@@ -12,7 +12,7 @@ function App() {
     <>
 
       <Navbar />
-      <Routes basename="/tothepoint_System-Salse">
+      <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='Home' element={<Home />}/>
         <Route path='Pruches' element={<Pruches />}/>
